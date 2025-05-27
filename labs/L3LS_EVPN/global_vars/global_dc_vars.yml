@@ -48,7 +48,7 @@ ntp:
       local_interface: Management0
 
 # Domain/DNS
-dns_domain: atd.lab
+custom_structure_configuration_dns_domain: atd.lab
 
 # TerminAttr
 daemon_terminattr:

@@ -5,7 +5,6 @@
 - [Management](#management)
   - [Banner](#banner)
   - [Management Interfaces](#management-interfaces)
-  - [DNS Domain](#dns-domain)
   - [NTP](#ntp)
   - [Management API HTTP](#management-api-http)
 - [Authentication](#authentication)
@@ -86,17 +85,6 @@ interface Management0
    description OOB_MANAGEMENT
    no shutdown
    ip address 192.168.0.13/24
-```
-
-### DNS Domain
-
-DNS domain: atd.lab
-
-#### DNS Domain Device Configuration
-
-```eos
-dns domain atd.lab
-!
 ```
 
 ### NTP
